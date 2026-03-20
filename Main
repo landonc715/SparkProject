@@ -18,7 +18,7 @@ while run == True:
     
     if overallScore == 5:
         print("Congratulations! You have completed all the quizzes! You are done studying!")
-        run = False
+        
 
         
 
