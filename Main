@@ -185,7 +185,95 @@ while run == True:
                 score += 1
             
     elif userinput == 4:
-        print("Starting Stage 1/3 of the History quiz!")
+      print("Starting Stage 1/3 of the History quiz!")
+        #Stage 1 of the History quiz
+
+        score = 0
+
+        while score == 0:
+
+            print("Who did America fight for Independence?")
+            print("a. Russia","b. Britain", "c. France", "d. China", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 1:
+            print("Who helped America fight for independence?", sep="\n")
+            print("a. Mexico", "b. Germany", "c. Mongolia", "d. France", sep="\n")
+            answer = input()
+            if answer == "d":
+                print("Correct! Moving on to the next question!")
+                score += 1
+
+        while score == 2:
+            print("How many Colonies did the US have before becoming independent?", sep="\n")
+            print("a. 13", "b. 8", "c. 4", "d. 26", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! All done with this level! Moving on to the next stage!")
+                print("You are 1/3 of the way through the History quiz")
+                score += 1
+
+
+        
+        #Stage 2 of the History quiz
+
+        score = 0
+
+        while score == 0:
+
+            print("What Year was the Declaration of Independence written?")
+            print("a. 1700", "b. 1823", "c. 1776", "d. 1902", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 1:
+
+            print("What state is the liberty bell in?")
+            print("a. California", "b. Pennsylvania", "c. Texas", "d. New York", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 2:
+
+            print("Who did NOT sign the declaration?", sep="\n")
+            print("a. John Adams", "b. Benjamin Franklin", "c. Thomas Jefferson", "d. Abigail Adams", sep="\n")
+            answer = input()
+            if answer == "d":
+                print("Correct! All done with this level! Moving on to the next stage!")
+                print("You are 2/3 of the way through the Chemistry quiz")
+                score += 1
+        
+        #Stage 3 of the History quiz
+
+        score = 0
+
+        while score == 0:
+            print("What piece of work was Walt Whitman most known for?")
+            print("a. Leaves of Grass", "b. Federalist Papers", "c. on being brought from Africa to America", "d. rip van winkle", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 1:
+
+            print("Why did the US enter WW1?", sep="\n")
+            print("a. To show off", "b. Pearl harbor", "c. Oil", "d. Zimmerman telegram", sep="\n")
+            answer = input()
+            if answer == "d":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 2:
+
+            print("Who wrote the federalist papers?", sep="\n")
+            print("a. George Washington", "b. Nikola Tesla", "c. Alexander Hamilton", "d. Ben Franklin", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! You have finished the History quiz! Moving on to the next subject!")
+                score += 1
     elif userinput == 5:
         print("Starting Stage 1/3 of the Coding quiz!")
     
