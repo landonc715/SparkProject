@@ -13,7 +13,7 @@ while run == True:
     userinput = int(input("Enter the number corresponding to your subject choice: "))
     if overallScore == 5:
         print("Congratulations! You have completed all the quizzes! You are done studying!")
-        run = False
+       
 
     if userinput == 1:
         
