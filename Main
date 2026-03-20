@@ -8,11 +8,90 @@ while run == True:
     if userinput == 1:
         print("Starting Stage 1/3 of the Math quiz!")
         score = 0
-       
 
+        while score == 0:
 
+            print("Which number is a nonnegative number?")
+            print("a. -4,-2,1,-9", sep="\n")
+            answer = input()
+            if answer == "3":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 1:
 
+            print("Which number is not a natural number?")
+            print("a. -4.2", "b. 3", "c. 10", "d. 39", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 2:
 
+            print("What is 80 * 80?", sep="\n")
+            print("a. 6400", "b. 64", "c. 640", "d. 64000", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! All done with this level! Moving on to the next stage!")
+                print("You are 1/3 of the way through the Math quiz")
+                score += 1
+        
+        #Stage 2 of the Math quiz
+
+        score = 0
+
+        while score == 0:
+
+            print("What is x? (2x+5)/3 = 5?")
+            print("a. x=5", "b. x=8", "c. x=3", "d. x=4", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 1:
+
+            print("WHat is (x+4) if x = 35/7?")
+            print("a. 13", "b. 9", "c. 5", "d. 35", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 2:
+
+            print("If a 6 sided dice is rolled what is the chance it is an even number?", sep="\n")
+            print("a. 1/6", "b. 1/3", "c. 1/2", "d. 2/3", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! All done with this level! Moving on to the next stage!")
+                print("You are 2/3 of the way through the Math quiz")
+                score += 1
+        
+        #Stage 3 of the Math quiz
+
+        score = 0
+
+        while score == 0:
+            print("What is the derivative of 3e^2x?")
+            print("a. 6e^2x", "b. 9e^2x", "c. 3e^x", "d. 3e^2", sep="\n")
+            answer = input()
+            if answer == "d":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 1:
+
+            print("What is the derivative of lnx?", sep="\n")
+            print("a. 1/x", "b. x", "c. ln(x)", "d. 1", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 2:
+
+            print("If a dice is rolled what is the chance of the number being odd and being greater than 2?", sep="\n")
+            print("a. 1/6", "b. 1/3", "c. 1/2", "d. 2/3", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! You have finished the Math quiz! Moving on to the next subject!")
+                score += 1
 
     elif userinput == 2:
         #Stage 1 of the Chemistry quiz
