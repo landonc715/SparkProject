@@ -437,7 +437,7 @@ while run == True:
                 score += 1
     while score == 2:
 
-            print("What Kind of Data Type is "Hello"", sep="\n")
+            print("What Kind of Data Type is Hello", sep="\n")
             print("a. Char", "b. Double", "c. String", "d. Int", sep="\n")
             answer = input()
             if answer == "c":
