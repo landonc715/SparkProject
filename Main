@@ -81,7 +81,7 @@ while run == True:
 
         while score == 0:
             print("How does electroplating prevent corrosion of an item?")
-            print("a. It changes the colour of the object, It modifies the chemical composition of the object, It removes the outer layer of the object, It plates an object with another material that will not corrode", sep="\n")
+            print("a. It changes the colour of the object", "b. It modifies the chemical composition of the object", "c. It removes the outer layer of the object", "d. It plates an object with another material that will not corrode", sep="\n")
             answer = input()
             if answer == "d":
                 print("Correct! Moving on to the next question!")
@@ -133,6 +133,56 @@ while run == True:
                 print("You are 1/3 of the way through the Biology quiz")
                 score += 1
 
+
+        print("Starting Stage 2/3 of the Biology quiz!")
+        print("What type of cell is produced by mitosis?")
+        print("a. Diploid", "b. Haploid", "c. Gamete", "d. Multicellular", sep="\n")
+        answer = input()
+        if answer == "a":
+            print("Correct! Moving on to the next question!")
+            score += 1
+        while score == 1:
+
+            print("Enzymes:")
+            print("a. Inhibit reactions", "b. last forever", "c.Lower activation energy", "d. are made of lipids", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 2:
+
+            print("A phospholipid head is:?", sep="\n")
+            print("a. Polar", "b. Nonpolar", "c. Amphipathic", "d. Charged", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! All done with this level! Moving on to the next stage!")
+                print("You are 2/3 of the way through the Biology quiz")
+                score += 1
+
+
+        print("Starting Stage 3/3 of the Biology quiz!")
+        print("What mainly is consumed to become energy in cellular respiration?")
+        print("a. Glucose", "b. Oxygen", "c. Carbon dioxide", "d. Water", sep="\n")
+        answer = input()
+        if answer == "a":
+            print("Correct! Moving on to the next question!")
+            score += 1
+        while score == 1:
+
+            print("The shape of a protein determines:")
+            print("a. Amino acid sequence", "b. protein function", "c. DNA sequence", "d. amount of protons", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! Moving on to the next question!")
+                score += 1
+        while score == 2:
+
+            print("Which are the two domains that contain prokaryotic cells?", sep="\n")
+            print("a. Bacteria and Archaea", "b. Bacteria and Eukarya", "c. Archaea and Eukarya", "d. Bacteria and Protista", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! You have finished the Biology quiz! Moving on to the next subject!")
+                score += 1
             
     elif userinput == 4:
         print("Starting Stage 1/3 of the History quiz!")
