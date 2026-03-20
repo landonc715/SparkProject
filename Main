@@ -240,7 +240,7 @@ while run == True:
             answer = input()
             if answer == "a":
                 print("Correct! All done with this level! Moving on to the next stage!")
-                print("You are 1/3 of the way through the History quiz")
+                print("You are 1/3 of the way through the Biology quiz")
                 score += 1
 
 
@@ -251,8 +251,8 @@ while run == True:
 
             while score == 0:
 
-                print("What is an array used for?")
-                print("a. Changing Values", "b. Storing Multiple Values", "c. Making A Loop", "d. Stopping The Code", sep="\n")
+                print("A phospholipid head is")
+                print("a. Polar", "b. Non-polar", "c. An Enzyme", "d. In the Nucleus", sep="\n")
                 answer = input()
                 if answer == "b":
                     print("Correct! Moving on to the next question!")
@@ -272,10 +272,10 @@ while run == True:
                 answer = input()
                 if answer == "c":
                     print("Correct! All done with this level! Moving on to the next stage!")
-                    print("You are 2/3 of the way through the Chemistry quiz")
+                    print("You are 2/3 of the way through the Biology quiz")
                     score += 1
         
-        #Stage 3 of the Biology Coding quiz
+        #Stage 3 of the Biology quiz
 
             score = 0
 
@@ -300,10 +300,10 @@ while run == True:
                 print("a. Bacteria and Archaea", "b. Bacteria and Eukarya", "c. Archaea and Eukarya", "d. Bacteria and Protista", sep="\n")
                 answer = input()
                 if answer == "a":
-                    print("Correct! You have finished the History quiz! Moving on to the next subject!")
+                    print("Correct! You have finished the Biology quiz! Moving on to the next subject!")
                     score += 1
-                    HisIteration += 1
-                    if HisIteration == 1:
+                    BioIteration += 1
+                    if BioIteration == 1:
                         overallScore += 1
     elif userinput == 4:
         print("Starting Stage 1/3 of the History quiz!")
@@ -365,7 +365,7 @@ while run == True:
             answer = input()
             if answer == "d":
                 print("Correct! All done with this level! Moving on to the next stage!")
-                print("You are 2/3 of the way through the Chemistry quiz")
+                print("You are 2/3 of the way through the History quiz")
                 score += 1
         
         #Stage 3 of the History quiz
@@ -427,7 +427,7 @@ while run == True:
             answer = input()
             if answer == "b":
                 print("Correct! All done with this level! Moving on to the next stage!")
-                print("You are 1/3 of the way through the History quiz")
+                print("You are 1/3 of the way through the Coding quiz")
                 score += 1
 
 
@@ -459,7 +459,7 @@ while run == True:
                 answer = input()
                 if answer == "c":
                     print("Correct! All done with this level! Moving on to the next stage!")
-                    print("You are 2/3 of the way through the Chemistry quiz")
+                    print("You are 2/3 of the way through the Coding quiz")
                     score += 1
         
         #Stage 3 of the C++ Coding quiz
@@ -487,7 +487,7 @@ while run == True:
                 print("a. Char", "b. Double", "c. String", "d. Int", sep="\n")
                 answer = input()
                 if answer == "c":
-                    print("Correct! You have finished the History quiz! Moving on to the next subject!")
+                    print("Correct! You have finished the Coding quiz! Moving on to the next subject!")
                     score += 1
                     CodeIteration += 1
                     if CodeIteration == 1:
