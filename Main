@@ -1,19 +1,26 @@
+
 run = True
 
+overallScore = 0
+mathIteration = 0
+ChemIteration = 0       
+BioIteration = 0  
+HisIteration = 0
+CodeIteration = 0
+
+
 while run == True:
-    overallScore = 0
-    mathIteration = 0
-    ChemIteration = 0       
-    BioIteration = 0  
-    HisIteration = 0
-    CodeIteration = 0
-    print("Welcome to the study quizzes!")
+    
+    print("Welcome to study quizzes!")
     print("Please select a subject from the following options:")
     print("Math = 1", "Chemistry = 2", "Biology = 3", "History = 4", "Coding = 5", sep="\n")
     userinput = int(input("Enter the number corresponding to your subject choice: "))
+    
     if overallScore == 5:
         print("Congratulations! You have completed all the quizzes! You are done studying!")
-       
+        run = False
+
+        
 
     if userinput == 1:
         
@@ -239,6 +246,7 @@ while run == True:
         print("a. Diploid", "b. Haploid", "c. Gamete", "d. Multicellular", sep="\n")
         answer = input()
         if answer == "a":
+        
             print("Correct! Moving on to the next question!")
             score += 1
         while score == 1:
