@@ -354,5 +354,93 @@ while run == True:
                 print("Correct! You have finished the History quiz! Moving on to the next subject!")
                 score += 1
     elif userinput == 5:
-        print("Starting Stage 1/3 of the Coding quiz!")
+     print("Starting Stage 1/3 of the C++ Coding quiz!")
+        #Stage 1 of the coding quiz
+
+    score = 0
+
+    while score == 0:
+
+            print("What is a variable?")
+            print("a. Something that can NOT be changed","b. A loop","c. The Power Button","d. Something that can be changed", sep="\n")
+            answer = input()
+            if answer == "d":
+                print("Correct! Moving on to the next question!")
+                score += 1
+    while score == 1:
+            print("What type of data type would you assign a decimal?", sep="\n")
+            print("a. Char", "b. Int", "c. Float", "d. String", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! Moving on to the next question!")
+                score += 1
+
+    while score == 2:
+            print("Does an if statement always happen?", sep="\n")
+            print("a. Yes", "b. No", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! All done with this level! Moving on to the next stage!")
+                print("You are 1/3 of the way through the History quiz")
+                score += 1
+
+
+        
+        #Stage 2 of the C++ Coding quiz
+
+    score = 0
+
+    while score == 0:
+
+            print("What is an array used for?")
+            print("a. Changing Values", "b. Storing Multiple Values", "c. Making A Loop", "d. Stopping The Code", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! Moving on to the next question!")
+                score += 1
+    while score == 1:
+
+            print("Which loop do you use when you know how many times the loop will be ran")
+            print("a. If", "b. While", "c. For", "d. Int", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! Moving on to the next question!")
+                score += 1
+    while score == 2:
+
+            print("What is the first command used in a code ", sep="\n")
+            print("a. Int main()", "b. return 0;", "c. #include", "d. {}", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! All done with this level! Moving on to the next stage!")
+                print("You are 2/3 of the way through the Chemistry quiz")
+                score += 1
+        
+        #Stage 3 of the C++ Coding quiz
+
+    score = 0
+
+    while score == 0:
+            print("A loop inside a loop is called what? ")
+            print("a. Super Loop", "b. Nested Loop", "c. Broken Loop", "d. If Loop", sep="\n")
+            answer = input()
+            if answer == "b":
+                print("Correct! Moving on to the next question!")
+                score += 1
+    while score == 1:
+
+            print("Are arrays or vectors limited in size?", sep="\n")
+            print("a. Arrays", "b. Vectors", sep="\n")
+            answer = input()
+            if answer == "a":
+                print("Correct! Moving on to the next question!")
+                score += 1
+    while score == 2:
+
+            print("What Kind of Data Type is "Hello"", sep="\n")
+            print("a. Char", "b. Double", "c. String", "d. Int", sep="\n")
+            answer = input()
+            if answer == "c":
+                print("Correct! You have finished the History quiz! Moving on to the next subject!")
+                score += 1
     
